@@ -1,0 +1,80 @@
+/* slider area started  */
+.box{
+    color: aliceblue;
+    text-align: center;
+}
+.box1{
+    background-color: black;
+    padding: 10px 0;
+}
+.box2{
+    background-color: green;
+    padding: 10px 0;
+}
+/* slider area finished */
+/* draggable area started */
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: rgb(171, 167, 238);
+     }
+/* draggable area finished */
+/* droppable area started  */
+#draggable1 {
+     width: 100px;
+      height:100px;
+       padding: 0.5em;
+       float: left; 
+       margin:10px 10px 10px 0;
+       border: 1px solid green;
+       border-radius: 50%;
+     }
+#droppable {
+     width: 150px; 
+     height: 150px; 
+     padding: 0.5em;
+      float: left;
+       margin: 10px;
+       border: 1px solid red;
+     }
+/* droppable area finished */
+
+/* counter up started */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+} */
+
+.flex {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex div {
+    width: 150px;
+    height: 200px;
+    padding: 50px 0;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #19f;
+    color: #fff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+/* counter up finished */

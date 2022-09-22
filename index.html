@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>jquery</title>
+
+  <!-- fonts link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- css links -->
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+ <!-- alert area started -->
+ <div class="container">
+  <h1 class="py-3 text-info">Click the button to show alert message</h1>
+  <button type="button" class="btn btn-dark click">Click me</button>
+ </div>
+ <!-- alert area finished -->
+ <!-- hide area started  -->
+ <div class="container p-3">
+  <button type="button" class="btn btn-success hide">Hide</button>
+  <button type="button" class="btn btn-success show">Show</button>
+  <button type="button" class="btn btn-success toggle">Toggle</button>
+  <h2 class="h_hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+ </div>
+ <!-- hide area finished  -->
+ <div class="container p-3">
+  <button type="button" class="btn btn-info fade_out">Fade Out</button>
+  <button type="button" class="btn btn-info fade_in">Fade In</button>
+  <button type="button" class="btn btn-info fade_toggle">Fade Toggle</button>
+  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+ </div>
+ <!-- fade area finished -->
+ <!-- slide area started  -->
+ <div class="container">
+  <div class="box">
+  <div class="box1">
+    <h2>Click here to show slide toggle</h2>
+  </div>
+  <div class="box2">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ut quisquam fugiat voluptatum pariatur unde aut at dolores odit reiciendis maiores, aperiam deserunt, similique porro eum iste omnis quam excepturi.</p>
+  </div>
+</div>
+ </div>
+ <!-- slide area finished -->
+  <!-- accordion area started  -->
+  <div class="container">
+    <div id="accordion">
+      <h3>Section 1</h3>
+      <div>
+        <p>
+        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+        </p>
+      </div>
+      <h3>Section 3</h3>
+      <div>
+        <p>
+        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+      <h3>Section 4</h3>
+      <div>
+        <p>
+        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+        mauris vel est.
+        </p>
+        <p>
+        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos.
+        </p>
+      </div>
+    </div>
+   </div>
+ <!-- accordion area finished -->
+
+ <!-- draggable area started  -->
+ <div class="container mt-4">
+  <div id="draggable" class="ui-widget-content">
+    <p>Drag me where you want</p>
+  </div>
+ </div>
+ <!-- draggable area finished -->
+ <!-- droppable area started  -->
+ <div class="container">
+  <div id="draggable1" class="ui-widget-content">
+    <p> &nbsp; Drag me to my target</p>
+  </div>
+  <div id="droppable" class="ui-widget-header">
+    <p>Drop here</p>
+  </div>
+ </div>
+ <!-- droppable area finished -->
+<!-- date picker area started  -->
+<div class="container">
+<p>Date: <input type="text" id="datepicker"></p>
+
+</div>
+<!-- date picker area finished -->
+
+<!-- dialog area started  -->
+<div class="container">
+  <div id="dialog" title="Basic dialog">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+  </div>
+</div>
+<!-- dialog area finished  -->
+
+<!-- counter up area started  -->
+<div class="container">
+  <div class="flex">
+    <div>
+        <h1 id="num1">250</h1>
+        <h3>Projects</h3>
+    </div>
+    <div>
+        <h1 id="num2">435</h1>
+        <h3>Projects Done</h3>
+    </div>
+    <div>
+        <h1 id="num3">220</h1>
+        <h3>Happy Clients</h3>
+    </div>
+  </div>
+</div>
+<!-- counter up area finished -->
+
+
+
+  <!-- script links -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="vendor/counter-up/countMe.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
